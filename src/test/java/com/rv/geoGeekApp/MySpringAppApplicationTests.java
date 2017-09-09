@@ -1,4 +1,4 @@
-package com.rv.springApp.mySpringApp;
+package com.rv.geoGeekApp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
