@@ -1,13 +1,17 @@
 package com.rv.geoGeekApp.dataObjects;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Data Object class defined to store weather details.
  * 
  * 
  * @author Arvind Terati
  */
+@Component
 public class WeatherData {
 
+	// @JsonProperty("name")
 	private String cityName;
 	private String description;
 	private Long currentTemperature;
